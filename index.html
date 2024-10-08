@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Service</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+
+       <h1>Saber o Valor "TOTAL"</h1>
+      
+      <div class="price">
+        <label>Preço do Produto R$ :</label>
+       <input type="number" id="price-kg">
+    </div>
+    <div class="quilo">
+       <label>Quantidade (gr) :</label>
+       <input type="number" id="kg">
+    </div>
+
+    <button onclick="calculateValue()">Calcular Preço</button>
+    <p class="valor-pagar"></p>
+    </main>
+    
+</body>
+<script src="./script.js"></script>
+</html>
